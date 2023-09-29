@@ -7,13 +7,13 @@
   --font-primary: "Roboto Condensed";
   --font-secondary: "Roboto";
 
-  --font-size: 20px;
+  --font-size: 10px;
   --font-size-small: 0.75rem;
 
-  --gap-body-top: 60px;
-  --gap-body-right: 60px;
-  --gap-body-bottom: 60px;
-  --gap-body-left: 60px;
+  --gap-body-top: 40px;
+  --gap-body-right: 40px;
+  --gap-body-bottom: 40px;
+  --gap-body-left: 40px;
 
   --gap-modules: 30px;
 }
@@ -65,17 +65,17 @@ body {
 }
 
 .small {
-  font-size: 1rem;
+  font-size: 0.5rem;
   line-height: 1.25;
 }
 
 .medium {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.225;
 }
 
 .large {
-  font-size: 3.25rem;
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -126,8 +126,8 @@ header {
 }
 
 sup {
-  font-size: 50%;
-  line-height: 50%;
+  font-size: 40%;
+  line-height: 40%;
 }
 
 /**
@@ -189,14 +189,14 @@ sup {
 
 .region.top.center,
 .region.bottom.center {
-  left: 50%;
+  left: 40%;
   transform: translateX(-50%);
 }
 
 .region.top.right,
 .region.top.left,
 .region.top.center {
-  top: 100%;
+  top: 90%;
 }
 
 .region.bottom {
